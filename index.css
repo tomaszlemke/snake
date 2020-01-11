@@ -1,0 +1,45 @@
+#wonsz {
+width: auto;
+margin: 0;
+padding: 0;
+border: 1px solid black;
+float: left;
+display: inline-block;
+}
+
+#menu {
+margin-left: 0;
+width: 300px;
+height: 588px;
+border: 1px solid black;
+margin: 0;
+padding: 20px 0px 0px 0px;
+text-align: center;
+text-decoration-style: solid;
+position: relative;
+float: left;
+display: inline-block;
+background-color: #66ff66;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    0% {left:0px; }
+  25%  {left:200px; }
+  50%  {left:200px; transform: rotateY(180deg);}
+  75%  {left:0px; ;}
+  100% {left:0px; }
+}
+#wynik{
+   font-size: 40px; 
+    
+}
